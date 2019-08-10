@@ -58,7 +58,7 @@ impl<'a> Server<'a> {
 pub fn serve(static_files: String) {
     println!("{}", static_files);
     let static_files = Rc::new(Path::new(&static_files));
-    println!("Actix server listening on port 7878");
+    println!("Ws server listening on port 7878");
     listen("127.0.0.1:7878", |_out| {
         Server { static_files: Rc::clone(&static_files) }
     }).unwrap();
