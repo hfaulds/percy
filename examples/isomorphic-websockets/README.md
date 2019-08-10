@@ -1,4 +1,4 @@
-# isomorphic web app example
+# isomorphic web app example with websockets
 
 *TODO: Find a service where we can host a live version of the demo for free or cheaply.*
 
@@ -15,7 +15,7 @@ git clone https://github.com/chinedufn/percy
 cd percy
 
 # Build the WebAssembly module and start the server
-./examples/isomorphic/start.sh
+./examples/isomorphic-websockets/start.sh
 
 # Now visit http://localhost:7878
 ```
